@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 set -e
 
 if [ ! -f "Lavalink.jar" ]; then
