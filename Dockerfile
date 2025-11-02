@@ -4,9 +4,8 @@ WORKDIR /app
 
 COPY . .
 
-RUN chmod +x lavalink/start.sh
+RUN chmod +x start.sh
 
 EXPOSE 2333
 
-CMD ["./lavalink/start.sh"]
-
+CMD ["./start.sh"]
