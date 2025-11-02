@@ -2,9 +2,9 @@ server:
   port: ${PORT:-2333}
 lavalink:
   server:
-    password: "youshallnotpass"
+    password: "EuoniaGroup"
     sources:
-      youtube: true
+      youtube: false
       soundcloud: true
       bandcamp: true
       twitch: true
