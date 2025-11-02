@@ -1,0 +1,31 @@
+server:
+  port: ${PORT:-2333}
+lavalink:
+  server:
+    password: "youshallnotpass"
+    sources:
+      youtube: true
+      soundcloud: true
+      bandcamp: true
+      twitch: true
+      vimeo: true
+      http: true
+      local: false
+    buffers:
+      frame-buffer-duration: 400
+    filters:
+      volume: true
+      karaoke: true
+      timescale: true
+      tremolo: true
+      vibrato: true
+      distortion: true
+      rotation: true
+      channel-mix: true
+      low-pass: true
+logging:
+  file:
+    path: ./logs/
+  level:
+    root: INFO
+    lavalink: INFO
